@@ -1,0 +1,7 @@
+{
+  "base_model": "distilbert-base-uncased",
+  "num_labels": 2,
+  "max_length": 512,
+  "tokenizer": "distilbert-base-uncased",
+  "notes": "Placeholder configuration referencing the fine-tuned classifier head stored in head_state_dict.pt."
+}
