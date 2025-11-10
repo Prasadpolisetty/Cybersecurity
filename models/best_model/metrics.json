@@ -1,0 +1,39 @@
+{
+  "models": {
+    "sentence-transformers/all-MiniLM-L6-v2": {
+      "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+      "output_dir": "artifacts/model_runs/sentence-transformers_all-MiniLM-L6-v2",
+      "latency_ms": 12.4,
+      "memory_mb": 410.2,
+      "best_metric": 0.86,
+      "loss": 0.42,
+      "f1": 0.86,
+      "roc_auc": 0.91,
+      "accuracy": 0.85
+    },
+    "distilbert-base-uncased": {
+      "model_name": "distilbert-base-uncased",
+      "output_dir": "artifacts/model_runs/distilbert-base-uncased",
+      "latency_ms": 18.7,
+      "memory_mb": 520.6,
+      "best_metric": 0.88,
+      "loss": 0.38,
+      "f1": 0.88,
+      "roc_auc": 0.92,
+      "accuracy": 0.87
+    },
+    "bert-base-uncased": {
+      "model_name": "bert-base-uncased",
+      "output_dir": "artifacts/model_runs/bert-base-uncased",
+      "latency_ms": 27.9,
+      "memory_mb": 720.5,
+      "best_metric": 0.85,
+      "loss": 0.45,
+      "f1": 0.85,
+      "roc_auc": 0.89,
+      "accuracy": 0.84
+    }
+  },
+  "best_model": "distilbert-base-uncased",
+  "best_metric": 0.88
+}
